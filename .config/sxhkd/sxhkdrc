@@ -1,8 +1,10 @@
 super + o ; {f,s,t}
 	{firefox,slack,telegram-desktop}
 
-{_,ctrl} + XF86Audio{Raise,Lower}Volume
-	amixer set Master {10,1}%{+,-}
+XF86Audio{Raise,Lower}Volume
+	pactl set-sink-volume 1 {+,-}5%
+
+
 
 XF86AudioMute
 	amixer set Master toggle
