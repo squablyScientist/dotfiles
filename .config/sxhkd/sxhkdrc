@@ -1,5 +1,5 @@
-super + o ; {f,s,t}
-	{firefox,slack,telegram-desktop}
+super + o ; {f,s,t,d}
+	{firefox,slack,telegram-desktop,discord}
 
 XF86Audio{Raise,Lower}Volume
 	pactl set-sink-volume 1 {+,-}5%
