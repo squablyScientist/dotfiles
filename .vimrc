@@ -28,3 +28,5 @@ colo ron
 "Turns on semi-animated suggestion menu when typing in commands
 set wildmenu
 
+"Shows normal mode commands as they are typed
+set showcmd
