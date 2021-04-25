@@ -4,7 +4,8 @@ super + o ; {f,s,t,d}
 XF86Audio{Raise,Lower}Volume
 	pactl set-sink-volume 1 {+,-}5%
 
-
-
 XF86AudioMute
 	amixer set Master toggle
+
+@Print
+	clipboard-scrot
