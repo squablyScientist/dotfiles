@@ -5,10 +5,11 @@ super + v ; {c,d}
 	nordvpn {c,d}
 
 XF86Audio{Raise,Lower}Volume
-	pactl set-sink-volume 1 {+,-}5%
+	amixer sset Master 5%{+,-}
 
 XF86AudioMute
 	amixer set Master toggle
 
 @Print
 	clipboard-scrot
+
