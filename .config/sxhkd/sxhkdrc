@@ -1,6 +1,9 @@
 super + o ; {f,s,t,d}
 	{firefox,slack,telegram-desktop,discord}
 
+super + v ; {c,d}
+	nordvpn {c,d}
+
 XF86Audio{Raise,Lower}Volume
 	pactl set-sink-volume 1 {+,-}5%
 
