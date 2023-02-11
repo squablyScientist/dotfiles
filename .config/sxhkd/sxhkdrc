@@ -1,3 +1,6 @@
+super + l
+	slock
+
 super + o ; {f,s,t,d}
 	{firefox,slack,telegram-desktop,discord}
 
