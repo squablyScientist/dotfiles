@@ -4,11 +4,14 @@ super + l
 super + o ; {f,s,t,d}
 	{firefox,slack,telegram-desktop,discord}
 
+super + k ; {f,s,t,d}
+	killall {firefox,slack,telegram-desktop,discord}
+
 super + v ; {c,d}
 	nordvpn {c,d}
 
-XF86Audio{Raise,Lower}Volume
-	amixer sset Master 5%{+,-}
+{ctrl +,_,shift +}XF86Audio{Raise,Lower}Volume
+	amixer sset Master {1,5,10}%{+,-} && ~/.local/bin/notify-volume.sh
 
 XF86AudioMute
 	amixer set Master toggle
