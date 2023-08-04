@@ -16,6 +16,9 @@ super + v ; {c,d}
 XF86AudioMute
 	amixer set Master toggle
 
+XF86MonBrightness{Down,Up}
+	brightnessctl -d intel_backlight s 10%{-,+}
+
 @Print
 	clipboard-scrot
 
