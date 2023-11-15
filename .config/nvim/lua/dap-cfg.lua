@@ -38,6 +38,19 @@ end)
 -- DAP UI Configs
 local dapui = require('dapui')
 dapui.setup({
+  controls = {
+    icons = {
+      play = "⏵",
+      pause = "⏸",
+      terminate = "⏹",
+      run_last = "↻",
+      step_into = "↷",
+      step_out = "↑",
+      step_over = "→",
+      step_back = "←",
+      disconnect = "⏏"
+    }
+  },
   icons = {expanded = "▼", collapsed = "▶", current_frame = "▶"}
 })
 
