@@ -3,13 +3,14 @@ require('neodev').setup {}
 
 -- Setup language servers.
 local lspconfig = require('lspconfig')
-lspconfig.clangd.setup {}
-lspconfig.gopls.setup {}
-lspconfig.pyright.setup {}
-lspconfig.jsonls.setup {}
-lspconfig.bashls.setup {}
-lspconfig.marksman.setup {}
-lspconfig.lua_ls.setup {}
+lspconfig.clangd.setup {}   -- C/C++
+lspconfig.gopls.setup {}    -- Go
+lspconfig.pyright.setup {}  -- Python
+lspconfig.jsonls.setup {}   -- JSON
+lspconfig.bashls.setup {}   -- Bash
+lspconfig.marksman.setup {} -- Markdown
+lspconfig.lua_ls.setup {}   -- Lua
+lspconfig.yamlls.setup {}   -- YAML
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
