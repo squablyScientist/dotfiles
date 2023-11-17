@@ -11,6 +11,7 @@ lspconfig.bashls.setup {}         -- Bash
 lspconfig.marksman.setup {}       -- Markdown
 lspconfig.lua_ls.setup {}         -- Lua
 lspconfig.yamlls.setup {}         -- YAML
+lspconfig.taplo.setup {}          -- TOML
 lspconfig.rust_analyzer.setup {}  -- Rust
 
 -- Global mappings.
